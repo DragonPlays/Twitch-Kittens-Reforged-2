@@ -29,11 +29,11 @@ $MODPACK_NAME = "twitch-kittens-reforged-2"
 $CLIENT_NAME = "twitch-kittens-reforged-2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.2.1"
+$MODPACK_VERSION = "1.2.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.2.0"
+$LAST_MODPACK_VERSION = "1.2.1"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -59,7 +59,7 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written, it should be done
 $GAME_VERSIONS = @(8203)
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "beta"
+$CLIENT_RELEASE_TYPE = "release"
 
 #=====================================================================//
 #  DEPENDENCIES URL
@@ -241,7 +241,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 $SERVER_ZIP_NAME = "$CLIENT_NAME`Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "Twitch Kittens Reforged 2's Server $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "Twitch Kittens Reforged 2 Server-$MODPACK_VERSION"
 
 # Path to the ModListCreators output file
 $ModlistPath = "$InstanceRoot/changelogs/modlist_$MODPACK_VERSION.md"

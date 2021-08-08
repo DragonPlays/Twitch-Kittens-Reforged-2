@@ -1,1 +1,1 @@
-github_changelog_generator --since-tag 1.2.0
+github_changelog_generator -u DragonPlays_ -p Twitch-Kittens-Reforged-2 --t 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 --since-tag 1.2.0
