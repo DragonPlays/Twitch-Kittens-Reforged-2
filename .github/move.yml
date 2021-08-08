@@ -20,16 +20,7 @@ moveLabels: true
 
 # Set custom aliases for targets
 aliases:
-   e2: enigmatica2
-   e2l: enigmatica2light
-   e2e: enigmatica2expert
-   e2es: enigmatica2expertskyblock
-   e3: enigmatica3
-   e4: enigmatica4
-   e5: enigmatica5
-   e6: enigmatica6
-   e6e: enigmatica6expert
-   s: scientia
+   tkr2: twitchkittensreforged2
 
 # Repository to extend settings from
 _extends: .github
