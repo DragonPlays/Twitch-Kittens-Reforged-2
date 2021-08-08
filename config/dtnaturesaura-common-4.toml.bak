@@ -1,0 +1,7 @@
+
+["Decay Settings"]
+
+	["Decay Settings".decay]
+		#Any leaves properties registry names added to this will be ignored by the dynamic leaves decay effect. Note that any "solid" leaves (such as the nether fungus dynamic wart blocks) are automatically ignored.
+		leavesDecayBlacklist = []
+
