@@ -251,7 +251,6 @@
 - [thermal_cultivation-1.16.5-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation/files/3404883) (by [TeamCoFH](https://www.curseforge.com/members/teamcofh/projects))
 - [thermal_expansion-1.16.5-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/files/3404884) (by [TeamCoFH](https://www.curseforge.com/members/teamcofh/projects))
 - [thermal_foundation-1.16.5-1.3.2.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/files/3412300) (by [TeamCoFH](https://www.curseforge.com/members/teamcofh/projects))
-- [thermal_innovation-1.16.5-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation/files/3404886) (by [TeamCoFH](https://www.curseforge.com/members/teamcofh/projects))
 - [thermal_locomotion-1.16.5-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion/files/3404887) (by [TeamCoFH](https://www.curseforge.com/members/teamcofh/projects))
 - [tinyredstone-1.16.5-1.9.0a.jar](https://www.curseforge.com/minecraft/mc-mods/tiny-redstone/files/3400863) (by [Danny_and_Son](https://www.curseforge.com/members/danny_and_son/projects))
 - [titanium-1.16.5-3.2.8.4-10.jar](https://www.curseforge.com/minecraft/mc-mods/titanium/files/3346366) (by [Buuz135](https://www.curseforge.com/members/buuz135/projects))
