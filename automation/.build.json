@@ -3,5 +3,5 @@
     "minecraftVersion": "1.16.5",
     "modLoader": "forge",
     "modLoaderVersion": "32.2.2",
-    "includes": ["building_gadgets_patterns", "config", "defaultconfigs", "kubejs", "packmenu", "craftpresence", "patchouli_books"]
+    "includes": ["building_gadgets_patterns", "config", "defaultconfigs", "kubejs", "packmenu", "schematics"]
 }

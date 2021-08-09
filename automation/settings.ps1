@@ -29,11 +29,11 @@ $MODPACK_NAME = "twitch-kittens-reforged-2"
 $CLIENT_NAME = "Twitch Kittens Reforged 2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.2.3"
+$MODPACK_VERSION = "1.2.4"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.2.2"
+$LAST_MODPACK_VERSION = "1.2.3"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -206,8 +206,11 @@ $ENABLE_ALWAYS_UPDATE_JARS = $false
 # See below link for info:
 # https://github.com/github-changelog-generator/github-changelog-generator
 # Default: $false
-$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true	
-
+$ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE = $true
+$GITHUB_NAME = "DragonPlays"
+$GITHUB_TOKEN = "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"
+$GITHUB_REPOSITORY = "Twitch-Kittens-Reforged-2"
+$CHANGES_SINCE_VERSION = "1.2.3"	
 
 
 # =====================================================================//
@@ -238,7 +241,7 @@ $SERVER_CHANGELOG = $CLIENT_CHANGELOG
 $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 
 # Default: "$CLIENT_NAME Server $MODPACK_VERSION"
-$SERVER_ZIP_NAME = "$CLIENT_NAME`Server-$MODPACK_VERSION"
+$SERVER_ZIP_NAME = "$CLIENT_NAME-Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
 $SERVER_FILE_DISPLAY_NAME = "Twitch Kittens Reforged 2 Server-$MODPACK_VERSION"

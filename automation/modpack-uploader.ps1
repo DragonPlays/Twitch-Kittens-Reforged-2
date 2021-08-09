@@ -276,16 +276,21 @@ function New-GitHubRelease {
             tag_name         = $MODPACK_VERSION;
             target_commitish = 'master';
             name             = $MODPACK_VERSION;
-            body             = '';
+            body             = $CLIENT_CHANGELOG;
             draft            = $false;
             prerelease       = $false;
         } | ConvertTo-Json;
 
     
-        Write-Host 
+        Write-Host ""
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
         Write-Host "Making GitHub Release..." -ForegroundColor Green
-        Write-Host 
-    
+        Write-Host ""
+        Write-Host "######################################" -ForegroundColor Cyan
+        Write-Host ""
+
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         Invoke-RestMethod -Headers $Headers -Uri $Uri -Body $Body -Method Post
 		$currentLocation = Get-Location
 		Set-Location $InstanceRoot
