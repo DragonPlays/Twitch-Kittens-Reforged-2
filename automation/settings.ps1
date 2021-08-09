@@ -26,14 +26,14 @@ $CURSEFORGE_PROJECT_ID = 511374
 $MODPACK_NAME = "twitch-kittens-reforged-2"
 
 # Name of the Modpack in the ZIP File
-$CLIENT_NAME = "twitch-kittens-reforged-2"
+$CLIENT_NAME = "Twitch Kittens Reforged 2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.2.2"
+$MODPACK_VERSION = "1.2.3"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.2.1"
+$LAST_MODPACK_VERSION = "1.2.2"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -155,7 +155,7 @@ $ServerSetupConfigPath = "$InstanceRoot/server_files/server-setup-config.yaml"
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
 # Deprecated, everything in the server_files folder is zipped
-$CONTENTS_TO_ZIP = @("mods", "config")
+$CONTENTS_TO_ZIP = @()
 
 # =====================================================================//
 #  Operating System

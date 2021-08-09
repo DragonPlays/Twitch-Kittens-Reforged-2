@@ -302,7 +302,7 @@ function Update-Modlist {
         }
 
         Remove-Item $ModlistPath -ErrorAction SilentlyContinue
-        java -jar $ModlistCreatorJar --markdown --output ".\" --detailed --manifest "$InstanceRoot\$CLIENT_ZIP_NAME.zip"
+        java -jar $ModlistCreatorJar --markdown --detailed ".\" --output --manifest "$InstanceRoot\$CLIENT_ZIP_NAME.zip"
         Copy-Item -Path "$InstanceRoot\MODLIST.md" -Destination $ModlistPath -ErrorAction SilentlyContinue
         Move-Item -Path "$InstanceRoot\MODLIST.md" -Destination "$InstanceRoot\MODLIST.md" -ErrorAction SilentlyContinue -Force
         Copy-Item -Path "$InstanceRoot\automation\MODLIST.md" -Destination $ModlistPath -ErrorAction SilentlyContinue
@@ -326,5 +326,4 @@ if ($ENABLE_SERVER_FILE_MODULE -and -not $ENABLE_MODPACK_UPLOADER_MODULE) {
 New-GitHubRelease
 New-Changelog
 Update-Modlist
-
 
