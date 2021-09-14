@@ -1,4 +1,0 @@
-#Mon Sep 06 01:02:31 CDT 2021
-AURORA=true
-shadowDistance=512.0
-shadowMapResolution=4096
