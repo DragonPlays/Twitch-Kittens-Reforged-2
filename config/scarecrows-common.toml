@@ -1,49 +1,49 @@
 
 #Spoopy Scarecrow Configuration
 [spoopy]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = false
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 10
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
 
 #Super Spoopy Scarecrow Configuration
 [super_spoopy]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = true
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 10
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
 
 #Spooky Scarecrow Configuration
 [spooky]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = false
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 25
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
 
 #Super Spooky Scarecrow Configuration
 [super_spooky]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = true
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 25
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
 
 #Scary Scarecrow Configuration
 [scary]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = false
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 50
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = false
 
 #Super Scary Scarecrow Configuration
 [super_scary]
-	#false if this scarecrow only scares monsters, true if animals should be affected additionally
-	scareAnimals = true
 	#The effect range of this scarecrow
 	#Range: > 0
 	range = 50
+	#false if this scarecrow only scares monsters, true if animals should be affected additionally
+	scareAnimals = true
 

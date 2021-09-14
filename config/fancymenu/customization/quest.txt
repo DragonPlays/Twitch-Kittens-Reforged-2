@@ -1,0 +1,22 @@
+type = menu
+
+customization-meta {
+  identifier = com.feed_the_beast.mods.ftbguilibrary.widget.GuiWrapper
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -97
+  action = addtext
+  actionid = e885a29f-5df6-485a-814b-24094d6e1df91625916416146
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Check the left side for more Chapters
+}
+

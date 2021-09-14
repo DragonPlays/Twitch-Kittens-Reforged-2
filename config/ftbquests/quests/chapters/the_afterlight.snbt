@@ -1,0 +1,37 @@
+{
+	id: "5BA2FE2BCF10FED7"
+	group: ""
+	order_index: 7
+	filename: "the_afterlight"
+	title: "The Afterlight"
+	icon: "the_afterlight:strange_obsidian"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Enter The Afterlight"
+		icon: "the_afterlight:strange_obsidian"
+		x: -0.5d
+		y: -0.5d
+		id: "0685E8E08B6A0DBC"
+		tasks: [{
+			id: "6FA6AE3E0CF650E3"
+			type: "dimension"
+			title: "Enter The Afterlight"
+			icon: "the_afterlight:strange_obsidian"
+			dimension: "the_afterlight:the_afterlight"
+		}]
+		rewards: [{
+			id: "2EA1423E878F02BE"
+			type: "item"
+			item: {
+				id: "minecraft:written_book"
+				Count: 1b
+				tag: {
+					pages: ["{\"text\":\"Not much is known about this Dimension but there are some mysterious creatures lurking in the dark. \"}"]
+					title: "The Afterlight"
+					author: "SharkieWasBanned"
+				}
+			}
+		}]
+	}]
+}

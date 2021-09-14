@@ -1,0 +1,305 @@
+{
+	id: "199DB27DAA5DBED8"
+	group: ""
+	order_index: 0
+	filename: "a_new_beginning"
+	title: "Minecraft Adventure"
+	icon: "minecraft:grass_block"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Beginning!"
+			icon: "minecraft:grass_block"
+			x: -5.0d
+			y: 1.0d
+			id: "7AB5EA68B6C4B8C8"
+			tasks: [{
+				id: "7CD52E1D2BAF4A81"
+				type: "dimension"
+				title: "A Brand New Experience Awaits"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "4DFB4CC237502C15"
+					type: "item"
+					item: "alexsmobs:animal_dictionary"
+				}
+				{
+					id: "136CAEB9E27B9ECF"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							pages: ["{\"text\":\"Welcome to your New Minecraft Adventure!\\n\\nThis Modpack expands plenty on the Vanilla Concepts but also adds plenty of your favourite mods!\\n\\nThe Quests are there to help you progress to the different chapters.\\nGo Explore & Build!\"}"]
+							RepairCost: 0
+							title: "Adventure"
+							author: "SharkieWasBanned"
+							display: {
+								Name: "{\"text\":\"Minecraft Adventure!\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Craft a Light n' Dark Chest"
+			icon: "dead_guys_untitled_deep_dark_:unactivated_lightn_dark_block"
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["7AB5EA68B6C4B8C8"]
+			id: "2F8BAEEB5AC4B29E"
+			tasks: [{
+				id: "727C35558B1DD931"
+				type: "item"
+				title: "Craft A Light n' Dark Chest"
+				item: "dead_guys_untitled_deep_dark_:unactivated_lightn_dark_block"
+			}]
+			rewards: [
+				{
+					id: "594B1FD9367750BB"
+					type: "item"
+					item: "dead_guys_untitled_deep_dark_:unactivated_darkn_light"
+				}
+				{
+					id: "00D15E2345204FD6"
+					type: "item"
+					item: "tconstruct:materials_and_you"
+				}
+			]
+		}
+		{
+			title: "Obtain a Blue Journal from the Gatekeeper"
+			x: 7.0d
+			y: 1.0d
+			dependencies: [
+				"2CDBF098AD7C89B6"
+				"2F8BAEEB5AC4B29E"
+			]
+			dependency_requirement: "all_started"
+			id: "4BB003FB5E9C99DB"
+			tasks: [{
+				id: "456818E430F3986A"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [
+				{
+					id: "3CDEAB77C9D8FF90"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 12
+				}
+				{
+					id: "4854E7466A90D9BF"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			optional: true
+			id: "6C3B01A7B7F1E9D3"
+			tasks: [{
+				id: "34786D2B0FE3FCC1"
+				type: "kill"
+				title: "Kill The Frostmaw"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "53C6986046708C12"
+					type: "item"
+					item: "iceandfire:bestiary"
+				}
+				{
+					id: "54E23E22B86446A4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			optional: true
+			id: "08D7F64175B84606"
+			tasks: [{
+				id: "7850C5D106B3CE52"
+				type: "kill"
+				title: "Kill Barako"
+				icon: "mowziesmobs:barako_mask"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "07D74B490D03B0C6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:forbiddenmicon"
+						Count: 1b
+						tag: {
+							Open: 0b
+						}
+					}
+				}
+				{
+					id: "269A4F2916BA633B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			optional: true
+			id: "4B7FCCD488B4ED19"
+			tasks: [{
+				id: "3C9A81C9F7CC6C9B"
+				type: "kill"
+				title: "Kill The Wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4FBDDBB64CCB62F6"
+					type: "item"
+					item: "malum:spirit_altar"
+				}
+				{
+					id: "7432BC0E3B1EC5D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			optional: true
+			id: "2828C683211249D8"
+			tasks: [{
+				id: "39524051078E248C"
+				type: "kill"
+				title: "Kill a Lightning Dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3E0F14B5AFE88FEB"
+					type: "item"
+					item: "outvoted:void_heart"
+				}
+				{
+					id: "007576A7B69C556F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			optional: true
+			id: "2BC09EFED0153000"
+			tasks: [{
+				id: "78F39981D003FF1F"
+				type: "kill"
+				title: "Kill a Ice Dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "231E96BB1512C660"
+					type: "item"
+					item: "malum:encyclopedia_arcana"
+				}
+				{
+					id: "7FC91D4361AE6086"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			optional: true
+			id: "49E9728582747C9C"
+			tasks: [{
+				id: "04DC70A876412E42"
+				type: "kill"
+				title: "Kill a Fire Dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0C52926AAA937A40"
+					type: "item"
+					item: "eidolon:codex"
+				}
+				{
+					id: "19069C558AD9B66B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: ["Use the Shard to Summon the Pigmen Legion event by creating a Nether Reactor Core with the Blocks provided and a Beacon"]
+			dependencies: ["4BB003FB5E9C99DB"]
+			id: "03069BDE18298BD8"
+			tasks: [{
+				id: "549C6D73B0B40E93"
+				type: "item"
+				item: "pyromancer:core_shard"
+			}]
+			rewards: [
+				{
+					id: "1469536FA87B0CFF"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4
+				}
+				{
+					id: "5A9DB57EB120D75B"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 17
+				}
+				{
+					id: "2087B270C519319B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

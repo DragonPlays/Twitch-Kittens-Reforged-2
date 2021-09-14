@@ -32,7 +32,7 @@
     [
       {
         "type": "REGISTRY_NAME",
-        "negate": true,
+        "negate": false,
         "value": "biomesoplenty:tundra_bog"
       }
     ],

@@ -13,8 +13,8 @@
 	[server.miscellaneous]
 		#Enables experimental features. Use at own risk.
 		with_experimental = false
-		#Enable chest loot tables for villages and mineshafts.
-		with_chest_loot = false
 		#Enable detailed logging of the config values and resulting calculations in each mod feature config.
 		with_config_logging = false
+		#Enable chest loot tables for villages and mineshafts.
+		with_chest_loot = false
 

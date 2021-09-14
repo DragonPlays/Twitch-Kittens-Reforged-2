@@ -1,0 +1,153 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = -126
+  width = 20
+  actionid = 132d1a13-2639-4793-9b2e-63209f2ea3241626832389246
+  action = addbutton
+  y = -50
+  label = D
+  value = 
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -123
+  width = 14
+  action = addtexture
+  actionid = cbb69b85-d11a-40b9-8b06-693d244f1b9c1622754766230
+  y = -48
+  height = 15
+}
+
+customization {
+  identifier = %id=374338%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=606266%
+  orientation = mid-centered
+  x = 106
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=398242%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -98
+}
+
+customization {
+  identifier = %id=398338%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=504290%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398314%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=398314%
+  action = setbuttonlabel
+  value = Open to LAN
+}
+
+customization {
+  identifier = %id=504266%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=398290%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504338%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=374290%
+  orientation = mid-centered
+  x = 106
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=398266%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -74
+}
+
+customization {
+  identifier = %id=398362%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 22
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = 4
+  width = 98
+  actionid = e0ea8c94-bf2f-41d0-a939-efa3c35e946e1626832389268
+  action = addbutton
+  y = -50
+  label = Report Bugs
+  value = https://discord.com/invite/twitchkittens
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = -102
+  width = 98
+  actionid = d81c9717-6c0b-4c93-aa68-439225a634761626832389279
+  action = addbutton
+  y = -50
+  label = Give Feedback
+  value = https://discord.com/invite/twitchkittens
+  height = 20
+}
+

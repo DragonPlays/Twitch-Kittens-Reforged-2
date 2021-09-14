@@ -1,0 +1,218 @@
+
+#General configurations for More Plates
+[General]
+	#Hammer Durability (Doesn't work currently)
+	#Range: > 1
+	hammer_durability = 150
+	#Set this to false to disable all crafting recipes for Gears
+	enable_gear = true
+	#Set this to false to disable all crafting recipes for Plates
+	enable_plate = true
+	#Set this to false to disable all crafting recipes for Rods
+	enable_rod = true
+
+#Item configurations for More Plates
+[Items]
+	#Enable brick integration
+	register_brick = true
+	#Enable charcoal integration
+	register_charcoal = true
+	#Enable coal integration
+	register_coal = true
+	#Enable diamond integration
+	register_diamond = true
+	#Enable emerald integration
+	register_emerald = true
+	#Enable flint integration
+	register_flint = true
+	#Enable glowstone integration
+	register_glowstone = true
+	#Enable gold integration
+	register_gold = true
+	#Enable iron integration
+	register_iron = true
+	#Enable lapis integration
+	register_lapis_lazuli = true
+	#Enable nether brick integration
+	register_nether_brick = true
+	#Enable netherite integration
+	register_netherite = true
+	#Enable quartz integration
+	register_nether_quartz = true
+	#Enable paper integration
+	register_paper = true
+	#Enable prismarine integration
+	register_prismarine_crystals = true
+	#Enable redstone integration
+	register_redstone = true
+	#Enable wooden integration
+	register_wood = true
+	#Enable all the modium integration
+	register_allthemodium = true
+	#Enable unobtainium all the modium alloy integration
+	register_unobtainium_allthemodium_alloy = true
+	#Enable unobtainium integration
+	register_unobtainium = true
+	#Enable vibranium all the modium alloy integration
+	register_vibranium_allthemodium_alloy = true
+	#Enable vibranium integration
+	register_vibranium = true
+	#Enable vibranium unobtainium alloy integration
+	register_vibranium_unobtainium_alloy = true
+	#Enable certus quartz integration
+	register_certus_quartz = true
+	#Enable fluix integration
+	register_fluix = true
+	#Enable neptunium integration
+	register_neptunium = true
+	#Enable attuned titanium integration
+	register_attuned_titanium = true
+	#Enable chromium integration
+	register_chromium = true
+	#Enable energized gold integration
+	register_energized_gold = true
+	#Enable mystium integration
+	register_mystium = true
+	#Enable pure gold integration
+	register_pure_gold = true
+	#Enable pure iron integration
+	register_pure_iron = true
+	#Enable pure steel integration
+	register_pure_steel = true
+	#Enable pure titanium integration
+	register_pure_titanium = true
+	#Enable titanium integration
+	register_titanium = true
+	#Enable aquamarine integration
+	register_aquamarine = true
+	#Enable resonating gem integration
+	register_resonating_gem = true
+	#Enable starmetal integration
+	register_starmetal = true
+	#Enable brass integration
+	register_brass = true
+	#Enable blue alloy integration
+	register_blue_alloy = true
+	#Enable purple alloy integration
+	register_purple_alloy = true
+	#Enable red alloy integration
+	register_red_alloy = true
+	#Enable silicon integration
+	register_silicon = true
+	#Enable tungsten integration
+	register_tungsten = true
+	#Enable tungsten carbide integration
+	register_tungsten_carbide = true
+	#Enable zinc integration
+	register_zinc = true
+	#Enable amethyst integration
+	register_amethyst = true
+	#Enable green sapphire integration
+	register_green_sapphire = true
+	#Enable ruby integration
+	register_ruby = true
+	#Enable sapphire integration
+	register_sapphire = true
+	#Enable elementium integration
+	register_elementium = true
+	#Enable gaia spirit integration
+	register_gaia_spirit = true
+	#Enable manasteel integration
+	register_manasteel = true
+	#Enable terrasteel integration
+	register_terrasteel = true
+	#Enable aluminum integration
+	register_aluminum = true
+	#Enable bronze integration
+	register_bronze = true
+	#Enable constantan integration
+	register_constantan = true
+	#Enable copper integration
+	register_copper = true
+	#Enable electrum integration
+	register_electrum = true
+	#Enable enderium integration
+	register_enderium = true
+	#Enable invar integration
+	register_invar = true
+	#Enable lead integration
+	register_lead = true
+	#Enable lumium integration
+	register_lumium = true
+	#Enable nickel integration
+	register_nickel = true
+	#Enable platinum integration
+	register_platinum = true
+	#Enable signalum integration
+	register_signalum = true
+	#Enable silver integration
+	register_silver = true
+	#Enable steel integration
+	register_steel = true
+	#Enable tin integration
+	register_tin = true
+	#Enable uranium integration
+	register_uranium = true
+	#Enable black iron integration
+	register_black_iron = true
+	#Enable crystaltine integration
+	register_crystaltine = true
+	#Enable ender integration
+	register_ender = true
+	#Enable enhanced ender integration
+	register_enhanced_ender = true
+	#Enable redstone ingot integration
+	register_redstone_ingot = true
+	#Enable the ultimate integration
+	register_the_ultimate = true
+	#Enable fire dragonsteel integration
+	register_dragonsteel_fire = true
+	#Enable ice dragonsteel integration
+	register_dragonsteel_ice = true
+	#Enable lightning dragonsteel integration
+	register_dragonsteel_lightning = true
+	#Enable phantasmal integration
+	register_ghost = true
+	#Enable osmium integration
+	register_osmium = true
+	#Enable refined glowstone integration
+	register_refined_glowstone = true
+	#Enable refined obsidian integration
+	register_refined_obsidian = true
+	#Enable insanium integration
+	register_insanium = true
+	#Enable compressed iron integration
+	register_compressed_iron = true
+	#Enable energized steel integration
+	register_energized_steel = true
+	#Enable electrotine integration
+	register_electrotine_alloy = true
+	#Enable red alloy integration
+	register_red_ingot = true
+	#Enable silicon integration
+	register_silicon2 = true
+	#Enable ebony psimetal integration
+	register_ebony_psimetal = true
+	#Enable ivory psimetal integration
+	register_ivory_psimetal = true
+	#Enable psimetal integration
+	register_psimetal = true
+	#Enable imperium integration
+	register_imperium = true
+	#Enable inferium integration
+	register_inferium = true
+	#Enable prosperity integration
+	register_prosperity = true
+	#Enable prudentium integration
+	register_prudentium = true
+	#Enable soulium integration
+	register_soulium = true
+	#Enable supremium integration
+	register_supremium = true
+	#Enable tertium integration
+	register_tertium = true
+	#Enable quartz enriched iron integration
+	register_quartz_enriched_iron = true
+	#Enable bismuth integration
+	register_bismuth = true
+

@@ -1,0 +1,22 @@
+type = menu
+
+customization-meta {
+  identifier = dev.ftb.mods.ftblibrary.ui.ScreenWrapper
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  x = -79
+  action = addtext
+  actionid = ce6a6b43-a59b-4877-bade-5cc956efb7181626834682739
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = More Chapters on the left side
+}
+

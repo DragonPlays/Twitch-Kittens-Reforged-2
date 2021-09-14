@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.PackScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 08a45dfc-d809-4936-a0cd-195ebf1d3b1e1622600622299
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = The Disabled Resource Packs Requires Optifine!
+}
+
+customization {
+  orientation = bottom-right
+  shadow = true
+  x = -149
+  action = addtext
+  actionid = eb14c93f-25ae-4b01-a3aa-f99d8812f0621622754229876
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Don't Enable Programmer Art!
+}
+

@@ -1,0 +1,95 @@
+{
+	id: "3AA57CBE78D83F48"
+	group: ""
+	order_index: 1
+	filename: "the_deeper_dark"
+	title: "The Deeper Dark"
+	icon: "dead_guys_untitled_deep_dark_:cold_deep_stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enter The Deeper Dark"
+			icon: "dead_guys_untitled_deep_dark_:deep_stone"
+			x: -5.0d
+			y: -0.5d
+			id: "07309D942A1F723F"
+			tasks: [{
+				id: "5FF100E14CDD6AA8"
+				type: "dimension"
+				title: "Enter The Deeper Dark"
+				icon: "dead_guys_untitled_deep_dark_:deep_stone"
+				dimension: "dead_guys_untitled_deep_dark_:deep_darky"
+			}]
+			rewards: [{
+				id: "2D31A7DED1123233"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"text\":\"This place is so... cold.\\nWhy are there weird noises?!\\nMine down until you find a Cave but beware as there lies an Ancient Creature!\"}"]
+						RepairCost: 0
+						title: "Deeper Dark"
+						author: "SharkieWasBanned"
+						display: {
+							Name: "{\"text\":\"A Cold and Deep Place?!\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["07309D942A1F723F"]
+			id: "02714A8DD3AE01E4"
+			tasks: [{
+				id: "40FB553A0040A4F4"
+				type: "kill"
+				title: "Kill A Sculk Spy"
+				icon: "minecraft:ender_eye"
+				entity: "dead_guys_untitled_deep_dark_:sculk_spy"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "484EE53DD8C0DBEA"
+					type: "item"
+					item: "enigmaticlegacy:the_acknowledgment"
+				}
+				{
+					id: "05D1C94B8B55E444"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["02714A8DD3AE01E4"]
+			id: "4BBA93432BEEF312"
+			tasks: [{
+				id: "38E9DFC895D12AF7"
+				type: "kill"
+				title: "Kill The Warden"
+				icon: "dead_guys_untitled_deep_dark_:sculk"
+				entity: "dead_guys_untitled_deep_dark_:warden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66421FC40E91CFE6"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "06D7A3ECE8868FD8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

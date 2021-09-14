@@ -1,15 +1,10 @@
 {
 	version: 13
-	title: "Twitch Kittens Reforged 2"
-	icon: {
-		id: "botania:cosmetic_botanist_emblem"
-		Count: 1b
-		tag: { }
-	}
+	title: "Chapters"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
-	default_quest_shape: "circle"
+	default_quest_shape: "square"
 	default_quest_disable_jei: false
 	emergency_items_cooldown: 300
 	drop_loot_crates: false

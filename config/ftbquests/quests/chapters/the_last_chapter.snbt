@@ -1,0 +1,93 @@
+{
+	id: "53FAF0A851398EA6"
+	group: ""
+	order_index: 9
+	filename: "the_last_chapter"
+	title: "The Last Chapter"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "theabyss:abyssbookitem"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["76D79CCB1F00FCEB"]
+			id: "5E0885E5F7E182A1"
+			tasks: [{
+				id: "59123AC31DB93558"
+				type: "dimension"
+				title: "Enter The Abyss"
+				icon: "theabyss:abyssportalstone"
+				dimension: "theabyss:theabyssdim"
+			}]
+			rewards: [{
+				id: "536BC3365AF062AD"
+				type: "item"
+				item: {
+					id: "minecraft:written_book"
+					Count: 1b
+					tag: {
+						pages: ["{\"text\":\"What is this place? Where am I? Why is it so dark? To start on The Last Chapter, go and find the NPCs\"}"]
+						RepairCost: 0
+						title: "Last Chapter"
+						author: "SharkieWasBanned"
+						display: {
+							Name: "{\"text\":\"The Last Chapter\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Craft The Translation Letter"
+			x: -1.5d
+			y: -1.0d
+			id: "76D79CCB1F00FCEB"
+			tasks: [{
+				id: "180D8F5232FDA305"
+				type: "item"
+				item: "theabyss:translationletter"
+			}]
+			rewards: [{
+				id: "6002F9ADF221ACE7"
+				type: "item"
+				item: {
+					id: "theabyss:theabyssdim"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Obtain The Abyss End"
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["5E0885E5F7E182A1"]
+			id: "00731EDF3B34A1D9"
+			tasks: [{
+				id: "34A61BED11CCC03A"
+				type: "item"
+				item: {
+					id: "theabyss:end_of_time"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C396BEC56C3E33C"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+	]
+}

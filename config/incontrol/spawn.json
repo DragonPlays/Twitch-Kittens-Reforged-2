@@ -1,0 +1,603 @@
+[
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "infernalexp",
+    "mincount": {
+      "amount": 5,
+      "mod": "infernalexp",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "exoticbirds",
+    "mincount": {
+      "amount": 5,
+      "mod": "exoticbirds",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "earthmobsmod",
+    "mincount": {
+      "amount": 5,
+      "mod": "earthmobsmod",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "unnamedanimalmod",
+    "mincount": {
+      "amount": 5,
+      "mod": "unnamedanimalmod",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 5,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "cnb",
+    "mincount": {
+      "amount": 5,
+      "mod": "cnb",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 5,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "cnb",
+    "mincount": {
+      "amount": 5,
+      "mod": "cnb",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "aquaculture",
+    "mincount": {
+      "amount": 5,
+      "mod": "aquaculture",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "cavesandcliffs",
+    "mincount": {
+      "amount": 5,
+      "mod": "cavesandcliffs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "upgrade_aquatic",
+    "mincount": {
+      "amount": 5,
+      "mod": "upgrade_aquatic",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "comfortable_nether",
+    "mincount": {
+      "amount": 5,
+      "mod": "comfortable_nether",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "quark",
+    "mincount": {
+      "amount": 5,
+      "mod": "quark",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "quark",
+    "mincount": {
+      "amount": 5,
+      "mod": "quark",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "enviromental",
+    "mincount": {
+      "amount": 5,
+      "mod": "enviromental",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "frozenup",
+    "mincount": {
+      "amount": 5,
+      "mod": "frozenup",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "oddwatermobs",
+    "mincount": {
+      "amount": 5,
+      "mod": "oddwatermobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "terraincognita",
+    "mincount": {
+      "amount": 5,
+      "mod": "terraincognita",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "dungeons_mobs",
+    "mincount": {
+      "amount": 10,
+      "mod": "dungeons_mobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "minecraft",
+    "mincount": {
+      "amount": 100,
+      "mod": "minecraft",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mowziesmobs",
+    "mincount": {
+      "amount": 10,
+      "mod": "mowziesmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "minecraft:skeleton",
+    "mincount": {
+      "amount": 0,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "minecraft:zombie",
+    "mincount": {
+      "amount": 0,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "dungeons_mobs:armored_skeleton",
+    "mincount": {
+      "amount": 0,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "dungeons_mobs:armored_zombie",
+    "mincount": {
+      "amount": 0,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "feywild",
+    "mincount": {
+      "amount": 5,
+      "mod": "feywild",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "apotheosis",
+    "mincount": {
+      "amount": 5,
+      "mod": "apotheosis",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "forestcraft",
+    "mincount": {
+      "amount": 5,
+      "mod": "forestcraft",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "bettermushrooms",
+    "mincount": {
+      "amount": 5,
+      "mod": "bettermushrooms",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "betterlands",
+    "mincount": {
+      "amount": 5,
+      "mod": "betterlands",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "combustivefishing",
+    "mincount": {
+      "amount": 5,
+      "mod": "combustivefishing",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "dannys_expansion",
+    "mincount": {
+      "amount": 5,
+      "mod": "dannys_expansion",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "desolation",
+    "mincount": {
+      "amount": 5,
+      "mod": "desolation",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "druidcraft",
+    "mincount": {
+      "amount": 5,
+      "mod": "druidcraft",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "eidolon",
+    "mincount": {
+      "amount": 5,
+      "mod": "eidolon",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "enderlinginvaders",
+    "mincount": {
+      "amount": 5,
+      "mod": "enderlinginvaders",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "extendedmushrooms",
+    "mincount": {
+      "amount": 5,
+      "mod": "extendedmushrooms",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "greekfantasy",
+    "mincount": {
+      "amount": 5,
+      "mod": "greekfantasy",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "betterdefaultbiomes",
+    "mincount": {
+      "amount": 5,
+      "mod": "betterdefaultbiomes",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "iceandfire",
+    "mincount": {
+      "amount": 5,
+      "mod": "iceandfire",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "kobolds",
+    "mincount": {
+      "amount": 5,
+      "mod": "kobolds",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "leos_mushrooms",
+    "mincount": {
+      "amount": 5,
+      "mod": "leos_mushrooms",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mutantbeasts",
+    "mincount": {
+      "amount": 5,
+      "mod": "mutantbeasts",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "projectvibrantjourneys",
+    "mincount": {
+      "amount": 5,
+      "mod": "projectvibrantjourneys",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "savageandravage",
+    "mincount": {
+      "amount": 5,
+      "mod": "savageandravage",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "snowpig",
+    "mincount": {
+      "amount": 5,
+      "mod": "snowpig",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "supplementaries",
+    "mincount": {
+      "amount": 5,
+      "mod": "supplementaries",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "farlanders",
+    "mincount": {
+      "amount": 10,
+      "mod": "farlanders",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "toadterror",
+    "mincount": {
+      "amount": 5,
+      "mod": "toadterror",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "twist",
+    "mincount": {
+      "amount": 5,
+      "mod": "twist",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "untamedwilds",
+    "mincount": {
+      "amount": 10,
+      "mod": "untamedwilds",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "undead_expansion",
+    "mincount": {
+      "amount": 5,
+      "mod": "undead_expansion",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "whisperwoods",
+    "mincount": {
+      "amount": 5,
+      "mod": "whisperwoods",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "wilds",
+    "mincount": {
+      "amount": 5,
+      "mod": "wilds",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "wyrmroost",
+    "mincount": {
+      "amount": 5,
+      "mod": "wyrmroost",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "dungeonsmod",
+    "mincount": {
+      "amount": 10,
+      "mod": "dungeonsmod",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "pandoras_creatures",
+    "mincount": {
+      "amount": 5,
+      "mod": "pandoras_creatures",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "organics",
+    "mincount": {
+      "amount": 5,
+      "mod": "organics",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "rotten_piglins",
+    "mincount": {
+      "amount": 5,
+      "mod": "rotten_piglins",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "organics",
+    "mincount": {
+      "amount": 5,
+      "mod": "organics",
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+
+]

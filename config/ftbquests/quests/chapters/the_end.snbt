@@ -1,0 +1,167 @@
+{
+	id: "50EEC609E833AB5F"
+	group: ""
+	order_index: 8
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4D36AAFE17F5CD9C"
+			tasks: [{
+				id: "444AC080F3243355"
+				type: "dimension"
+				title: "Enter The End Dimension"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "7B2239F7579DF766"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 64
+				}
+				{
+					id: "4546AA8D1782E314"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							pages: ["{\"text\":\"It is told that there is a Creature more powerfull thatn the Ender Dragon!\"}"]
+							RepairCost: 0
+							title: "The End"
+							author: "SharkieWasBanned"
+							display: {
+								Name: "{\"text\":\"This is not The End?\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "2A51F2BA00FCA9DF"
+			tasks: [{
+				id: "412B85684482E982"
+				type: "kill"
+				title: "Kill The Ender Dragon"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "141F89B6238B7A86"
+				type: "item"
+				item: "iceandfire:dragonegg_black"
+			}]
+		}
+		{
+			title: "Collect a Void Crystal"
+			icon: "stalwart_dungeons:void_crystal"
+			x: 4.5d
+			y: 0.0d
+			optional: true
+			id: "243DD38EBFA8CA69"
+			tasks: [{
+				id: "649EAE2830C0B5CA"
+				type: "item"
+				item: "stalwart_dungeons:void_crystal"
+			}]
+			rewards: [
+				{
+					id: "3E87ADD8B5C010A3"
+					type: "item"
+					item: "wandering_bag:totem_from_nowhere"
+				}
+				{
+					id: "195F058B68445F60"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+				{
+					id: "7F92910F00A6CC4A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["7CB4A8E2B266BCF3"]
+			id: "1839FE2EA7937C34"
+			tasks: [{
+				id: "3D9577E7AC16A0C6"
+				type: "kill"
+				title: "Summon and Kill The Void Worm"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "52AF9BBAA8713450"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "theabyss:abyssbookitem"
+						}
+					}
+				}
+				{
+					id: "0560975222672FBD"
+					type: "item"
+					item: "theabyss:abyssportalstone"
+					count: 12
+				}
+				{
+					id: "5E124F2D3CBFA674"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["2A51F2BA00FCA9DF"]
+			id: "7CB4A8E2B266BCF3"
+			tasks: [{
+				id: "6ED0F4A584CAEFD1"
+				type: "kill"
+				title: "Kill a Mutant Enderman"
+				icon: "minecraft:ender_eye"
+				entity: "mutantbeasts:mutant_enderman"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "27A8857C67E7F003"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "324EED1A9D0B3D29"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+				{
+					id: "6A629D1A0BBE345D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

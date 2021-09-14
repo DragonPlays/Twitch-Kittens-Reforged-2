@@ -8,5 +8,5 @@ easingFunction = 6
 #Range: > 0
 animationDuration = 1000
 #If enabled chunks that are next to the player will not animate
-disableAroundPlayer = true
+disableAroundPlayer = false
 

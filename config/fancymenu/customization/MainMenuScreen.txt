@@ -1,0 +1,203 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = betterminecraftpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 8e2c0ba6-54d3-4a81-a69c-07d74d870dcf1630618988340
+  action = addbutton
+  y = 35
+  label = D
+  value = https://discord.com/invite/twitchkittens
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -121
+  width = 14
+  action = addtexture
+  actionid = 5e500d47-759a-4d44-9bd5-12b4e98ab6ad1615685752787
+  y = 37
+  height = 15
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = 104
+  width = 20
+  actionid = 61d9bc48-6f94-4e67-9cee-56bae59f6c551630618988366
+  action = addbutton
+  y = 35
+  label = C
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/forge.png
+  orientation = mid-centered
+  x = 107
+  width = 14
+  action = addtexture
+  actionid = 21eb83d9-96d9-42e4-8420-c4ad498a31361615685752824
+  y = 38
+  height = 13
+}
+
+customization {
+  orientation = mid-centered
+  hoverlabel = Amazing server hosting!
+  buttonaction = openlink
+  x = -100
+  width = 200
+  actionid = c153b1e9-df1c-4ad4-afb7-44e673161d5e1630618988389
+  action = addbutton
+  y = 35
+  label = Bisect Server Hosting
+  value = https://www.bisecthosting.com/
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -100
+  width = 200
+  actionid = 4715f05f-7a97-4c10-b505-036532d7eaeb1630618988400
+  action = addbutton
+  y = 11
+  label = Multiplayer
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -100
+  width = 200
+  actionid = 3c9cdb30-a522-48a8-b12d-58dcadffe05a1630618988412
+  action = addbutton
+  y = -13
+  label = Singleplayer
+  value = net.minecraft.client.gui.screen.WorldSelectionScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 2
+  action = addtext
+  actionid = b295fc27-7e74-4ae6-9fb9-858a064097b91622407806720
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Recommended Allocated RAM: 7GB
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -100
+  width = 98
+  actionid = 928a9a03-593a-4cda-a9c1-4ebce69c82e51630618988432
+  action = addbutton
+  y = 59
+  label = Options
+  value = net.minecraft.client.gui.screen.OptionsScreen
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = quitgame
+  x = 2
+  width = 98
+  actionid = 2ffff51f-a8dc-4321-a86a-676fe20b2b671630618988443
+  action = addbutton
+  y = 59
+  label = Quit Game
+  value = 
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 59
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = mid-centered
+  x = -55
+  width = 100
+  action = addtexture
+  actionid = bdb03a1f-783a-4c1d-bd0f-430ecda2e4441626980045312
+  y = -120
+  height = 100
+}
+
