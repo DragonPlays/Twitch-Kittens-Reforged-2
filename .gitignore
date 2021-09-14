@@ -95,6 +95,10 @@ automation/secrets.ps1
 automation/ChangelogGenerator-2.0.0-pre10.jar
 automation/ModListCreator-1.1.5.jar
 1.16.5.json
+optionsof.text
+minecraftinstance.json
+modlist.html
+/shaderpacks
 
 # Client Configs
 config/InvTweaks.cfg
